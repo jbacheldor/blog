@@ -1,7 +1,7 @@
 function Writing() {
     return (
       <div >
-        <header> About Page</header>
+        <header> Writing Page</header>
       </div>
     );
   }
