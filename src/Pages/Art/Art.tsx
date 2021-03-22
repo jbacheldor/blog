@@ -1,7 +1,7 @@
 function Art() {
     return (
       <div >
-        <header> About Page</header>
+        <header> Art Page</header>
       </div>
     );
   }

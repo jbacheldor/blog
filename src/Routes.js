@@ -18,7 +18,7 @@ return (
   <div className="NavBar"> 
   <BrowserRouter>
     <Route path="/" component={App}/>
-    <Route exact path="/" component={About}/>
+    <Route path="/About" component={About}/>
     <Route path="/Writing" component={Writing} />
     <Route path="/Art" component={Art} />
   </BrowserRouter>
