@@ -1,6 +1,6 @@
 function Writing() {
     return (
-      <div >
+      <div id="container">
         <header> Writing Page</header>
       </div>
     );

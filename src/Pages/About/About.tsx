@@ -1,6 +1,8 @@
+import "./about.css"
+
 function About() {
     return (
-      <div >
+      <div id="container">
         <header> About Page</header>
       </div>
     );
