@@ -1,0 +1,42 @@
+---
+import './auth.css';
+const buttonText = "Send Code";
+---
+
+<div id="auth-container">
+    <label id="phone-entry">
+        Enter in Phone Number:
+        <input name="phone-number" id="phone-number"/>
+    </label>
+    <hr/>
+    <label class="code-entry">
+        Enter in Code:
+        <input name="auth-code"/>
+    </label>
+    <button id="auth-button">{buttonText}</button>
+</div>
+
+<script is:inline>
+    const button = document.querySelector("button#auth-button");
+    button?.addEventListener('click' , () => onClickAddNumber());
+
+    const onClickAddNumber = (event) => {
+        const phoneNumber = document.getElementById("phone-number").value
+
+        if(phoneNumber.length > 10 || phoneNumber.length < 10){
+            alert("just 9 digits - no more no less")
+        }
+        else {
+            var reg = new RegExp('^[0-9]+$');
+            if(!reg.test(phoneNumber)){
+                alert("nothing but digits lad!")
+            }
+            else {
+                const codeBlock = document.querySelector("label.code-entry");
+                codeBlock?.classList.replace("code-entry", "code-entry-visible")
+            }
+        }
+
+    }
+
+</script>

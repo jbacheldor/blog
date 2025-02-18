@@ -1,4 +1,5 @@
 ---
+import Authentication from '../components/Authentication.astro';
 import Navigation from '../components/Navigation.astro';
 import '../global.css'
 const pageTitle = "Home Page";
@@ -10,10 +11,11 @@ const pageTitle = "Home Page";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>Blog!</title>
 	</head>
 	<body>
-		<h1 id="test">Astro</h1>
+		<h1 id="test">{pageTitle ? pageTitle : ""}</h1>
 		<Navigation />
+		<Authentication/>
 	</body>
 </html>
