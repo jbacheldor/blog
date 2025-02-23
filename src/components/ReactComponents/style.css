@@ -1,0 +1,57 @@
+.main-crush-window {
+    border: 1px solid #e6e6e8;
+    padding: 10px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+div.main-crush-header > button {
+
+}
+
+div.crush-picture {
+    width: 100px;
+    height: 100px;
+    background-color: #e6e6e8;
+    margin: 5px;
+}
+
+span.main-crush-header {
+    padding: 2px 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: pink;
+    color: white;
+    border: 1px #959595 solid;
+    /* box-shadow: 1px 1px #959595; */
+}
+
+span.buttons {
+    display: flex;
+    align-content:flex-end;
+}
+
+hr.crush-divider {
+    color: #949494
+}
+
+button {
+    margin: 0 2px;
+}
+
+button > span {
+    border: .5px #bfbbc3 solid;
+    padding: 1px 4px;
+}
+
+span.crush-name {
+    display: flex;
+    justify-content: start;
+}

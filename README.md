@@ -45,3 +45,11 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+
+
+---
+side note (for myself)
+
+- attempting to add in a headless cms like sanity.io to house all of my posts but utilizing the schema i prefer
+- also attempting to do authentication without having users manage things
