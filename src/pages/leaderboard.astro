@@ -1,6 +1,6 @@
 ---
 import Navigation from '../components/Navigation.astro';
-import CrushWindows from '../components/ReactComponents/CrushWindow';
+import CrushWrapper from '../components/ReactComponents/CrushWrapper';
 
 const pageTitle = "Leaderboard";
 
@@ -8,4 +8,4 @@ const pageTitle = "Leaderboard";
 
 <h1 id="test">{pageTitle ? pageTitle : ""}</h1>
 <Navigation />
-<CrushWindows client:load/>
+<CrushWrapper client:load/>
