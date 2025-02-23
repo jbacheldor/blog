@@ -43,7 +43,7 @@ input:focus {
     outline: none;
 }
 
-hr {
+hr#hr-id {
     width: 100%;
     border: none;
     height: 2px;

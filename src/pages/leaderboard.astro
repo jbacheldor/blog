@@ -1,0 +1,11 @@
+---
+import Navigation from '../components/Navigation.astro';
+import CrushWindows from '../components/ReactComponents/CrushWindow';
+
+const pageTitle = "Leaderboard";
+
+---
+
+<h1 id="test">{pageTitle ? pageTitle : ""}</h1>
+<Navigation />
+<CrushWindows client:load/>

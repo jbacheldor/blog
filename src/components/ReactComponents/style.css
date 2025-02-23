@@ -1,11 +1,20 @@
+#crush-blocks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .main-crush-window {
-    border: 1px solid #e6e6e8;
     padding: 10px;
     width: 220px;
+    margin: 10px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #cccccc;
+    box-shadow: 2px 2px #959595;
 }
 
 
@@ -14,6 +23,7 @@ div.main-crush-header > button {
 }
 
 div.crush-picture {
+    border: 1px white solid;
     width: 100px;
     height: 100px;
     background-color: #e6e6e8;
@@ -29,7 +39,9 @@ span.main-crush-header {
     justify-content: space-between;
     background-color: pink;
     color: white;
-    border: 1px #959595 solid;
+    border-bottom: 1px #959595 solid;
+    border-top: 1px solid white;
+    box-shadow: 1px 1px #959595;
     /* box-shadow: 1px 1px #959595; */
 }
 
@@ -39,7 +51,11 @@ span.buttons {
 }
 
 hr.crush-divider {
-    color: #949494
+    background-color: #949494;
+    width: 100%;
+    border: none;
+    height: 1px;
+    border-radius: 2px;
 }
 
 button {
